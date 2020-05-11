@@ -12,10 +12,73 @@ body {
     padding-right: 15px;
 }
 
+/*Background Principal*/
+#BackgroundPrincipal {
+    width: 400px;
+    height: 300px;
+    background-color: darkslateblue;
+}
+/*area formulario principal*/
+#area {
+    position: center;
+    left: auto;
+    top: auto;
+    width: auto;
+    height: auto;
+
+}
+
+#area #formulario {
+    position: absolute;
+    display: block;
+    background: fixed;
+    background-color: darkgray;
+}
+
+fieldset {
+    width: 300px;
+    height: 250px;
+}
+
+legendForm {
+    font-style: bold;
+    font-family: "Segoe UI", "Arial", "Times New Roman";
+}
+
+#formulario label {
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+}
+
+#formulario input.campo_estado {
+    position: absolute;
+    left: 95px;
+    top: 23px;
+    width: 225px;
+}
+
+#formulario input.campo_cidade {
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+}
+
+#formulario input.btn_submit {
+    border-style: dashed;
+    position: absolute;
+    bottom: 0.5em;
+    right: 10px;
+    background-color: aliceblue;
+   
+}
+
+
 /* Carousel */
 .carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+    font-size: 12px;
+    line-height: 2.0;
 }
 
 /* Make .svg files in the carousel display properly in older browsers */

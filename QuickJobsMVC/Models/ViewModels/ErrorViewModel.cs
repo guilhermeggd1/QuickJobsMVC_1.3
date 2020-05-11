@@ -1,6 +1,6 @@
 using System;
 
-namespace QuickJobsMVC.Models
+namespace QuickJobsMVC.Models.ViewModels
 {
     public class ErrorViewModel
     {

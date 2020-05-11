@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using QuickJobsMVC.Models;
+using QuickJobsMVC.Models.ViewModels;
 
 namespace QuickJobsMVC.Controllers
 {
@@ -17,7 +17,9 @@ namespace QuickJobsMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Quick Jobs - Otimizando seu tempo, qualificando seu trabalho";
+            ViewData["Mission"] = "Nossa Missão";
+
 
             return View();
         }
